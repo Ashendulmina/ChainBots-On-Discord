@@ -1,0 +1,11 @@
+from flask import Flask
+from threading import Thread
+app = Flask('')
+@app.route('/')
+def home():
+    return "<html><head><title>ChainLink'1'</title></head><body bgcolor='black'><h1><font color='Magenta' size='50'><center>Hi Welcome to Chainlink</center></font></h1><h2><font color='green'><center>Chain-Node 'NoID'</center></font></h2><h2><font color='red'><center>>☣Account=NoID</center></font></h2><details><summary><font size='5' color='Blue'>HOW?(click)</font></summary><p><font size='4' color='aqua'>☢	All The Accounts Are Selfboted</font></p></details><br><br><h3><center><font color='lime' size='30'>CHAIN-IS-RUNNING!</font></center></h3></body></html>"
+def run():
+  app.run(host='0.0.0.0',port=8080)
+def keep_alive():  
+  t = Thread(target=run)
+  t.start()

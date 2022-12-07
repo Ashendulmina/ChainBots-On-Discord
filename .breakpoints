@@ -1,0 +1,20 @@
+{
+  "files": {
+    "ave.txt": [
+      {
+        "id": "39483f04-4f29-4627-892d-9fe290be66af",
+        "line": 1,
+        "version": 2,
+        "index": 0
+      }
+    ],
+    "main.py": [
+      {
+        "id": "85e68fd0-8dcc-4e13-863e-5544a14033db",
+        "line": 359,
+        "version": 158,
+        "index": 14023
+      }
+    ]
+  }
+}
