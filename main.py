@@ -10,6 +10,7 @@ import os
 #-----SETUP-----#
 
 prefix = "!"
+token = os.getenv("TOKEN")
 
 #use the .env feature to hide your token
 
